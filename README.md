@@ -8,7 +8,7 @@
 
 【要求】
 
-- 原创
+- 原创或改进现有方法；
 - 无损压缩，信息不能有任何丢失；
 - 通用性，对任意FASTQ有效；
 - 时效性，压缩和解压时间必须在可接受范围内，不能超过传统压缩方法（gunzip）的3倍。
@@ -47,6 +47,7 @@ CC@FFFFFHHHHHJJJFHIIJJJJJJIHJIIJJJJJJJJIIGIJJIJJJIJJJIJIJJJJJJJJJJIJHHHHFFFDEEEE
 
 **【要求】**
 
+- 原创或改进现有方法；
 - 方法不限，但所用资源和成本应具有实际的可行性和可推广性；
 - 方法和方案必须完整可复用；
 - 必须是Pair-End测序的数据，如本题所提供；
