@@ -46,7 +46,7 @@ CC@FFFFFHHHHHJJJFHIIJJJJJJIHJIIJJJJJJJJIIGIJJIJJJIJJJIJIJJJJJJJJJJIJHHHHFFFDEEEE
 
 ## 2 计算问题：高效的人类全基因数据分析
 
-**【背景】**人的[基因组](https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E5%9F%BA%E5%9B%A0%E7%B5%84)为3G，用于[全基因组测序](https://en.wikipedia.org/wiki/Whole_genome_sequencing)数据分析时，需要[测序深度](http://baike.baidu.com/link?url=9QQtc999YINr7u5ExQ-YPWn3SoktRuGPNYQnZ9m3luaUgASenKuVrLjCZuBg_x7404i4pPMxghR8fVjINbhkUq)为50x或者更高，使用常见的生物信息分析工具和方法（[bwa](http://bio-bwa.sourceforge.net/)+[picard](http://www.psc.edu/index.php/user-resources/software/picard)+[GATK](https://www.broadinstitute.org/gatk/)），时间上基本需要2-3天，这对于日益增长的人类基因组数据来说是远远不能满足数据解读的速度需求的。当前基因组数据分析的最大瓶颈是，数据的解读速度远不及数据的产出速度，全基因组数据分析是人类基因组数据解读中最基本的一个步骤。
+**【背景】**人的[基因组](https://zh.wikipedia.org/wiki/%E4%BA%BA%E9%A1%9E%E5%9F%BA%E5%9B%A0%E7%B5%84)为3G，用于[全基因组测序](https://en.wikipedia.org/wiki/Whole_genome_sequencing)数据分析时，需要[测序深度](http://baike.baidu.com/link?url=9QQtc999YINr7u5ExQ-YPWn3SoktRuGPNYQnZ9m3luaUgASenKuVrLjCZuBg_x7404i4pPMxghR8fVjINbhkUq)为50x或者更高，使用常见的生物信息分析工具和方法（[bwa](http://bio-bwa.sourceforge.net/)+[picard](http://www.psc.edu/index.php/user-resources/software/picard)+[GATK](https://www.broadinstitute.org/gatk/)），时间基本需要10个-20个小时，这对于日益增长的人类基因组数据来说是远远不能满足数据解读的速度需求的。当前基因组数据分析的最大瓶颈是，数据的解读速度远不及数据的产出速度，全基因组数据分析是人类基因组数据解读中最基本的一个步骤。
 
 **【题目】**30分钟完成50x-60x人类全基因组数据标准分析（从fq数据到变异数据的产出），本题提供的数据约覆盖人类基因组55x。
 
