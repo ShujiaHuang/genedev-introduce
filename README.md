@@ -1,6 +1,6 @@
 # 基因组学竞赛题目
 
-![logo](https://github.com/gcta/genedev-introduce/blob/master/assets/GCTA.logo.png)
+[![logo](https://github.com/gcta/genedev-introduce/blob/master/assets/GCTA.logo.png)](http://www.gene-dev.cn/)
 
 ## 1 数据存储问题：FASTQ数据的高倍数压缩
 
