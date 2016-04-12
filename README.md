@@ -2,6 +2,8 @@
 
 [![logo](https://github.com/gcta/genedev-introduce/blob/master/assets/GCTA.logo.png)](http://www.gene-dev.cn/)
 
+该竞赛的相关内容已同步发布于GCTA官网[链接](http://www.gene-dev.cn/navigation/show_navigation?nid=17060)
+
 ## 1 数据存储问题：FASTQ数据的高倍数压缩
 
 **【背景】**随着测序技术的进步，全世界测序产出的DNA数据正在激增中，如何有效降低[DNA](https://zh.wikipedia.org/wiki/%E8%84%B1%E6%B0%A7%E6%A0%B8%E7%B3%96%E6%A0%B8%E9%85%B8)数据的存储空间已经成为了一个急需解决的难题。目前一般的压缩格式（gz，bz2等）只能将DNA的测序数据（FASTQ格式，或称fq格式）压缩至原来的30%左右。但fq数据有着自己固定的格式形式，DNA测序数据也只有4种碱基，由A，C，G，T这四个字母表示，是能够针对其数据上的特点实现更高倍数的压缩的。
