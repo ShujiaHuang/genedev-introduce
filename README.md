@@ -19,12 +19,14 @@
 
 **【评核标准】:**
 
-- 压缩比（60%）；
-- 压缩和解压时间（40%）。
+- 压缩比（60）；
+- 压缩和解压时间（40）。
 
 **【加分项】**
 
 - 其它有助于读写该压缩格式的附加功能给予适当加分（10）
+
+> 括号中为分数，下同。
 
 **【FASTQ文件的格式说明】**FASTQ是当前存储物种的原始测序数据（DNA）的标准文件，它每四行为一个独立的序列存储单元（成为read单元），每一个read单元的格式如下：
 
@@ -55,7 +57,7 @@ CC@FFFFFHHHHHJJJFHIIJJJJJJIHJIIJJJJJJJJIIGIJJIJJJIJJJIJIJJJJJJJJJJIJHHHHFFFDEEEE
 - 原创或改进现有方法；
 - 方法不限，但所用资源和成本应具有实际的可行性和可推广性；
 - 方法和方案必须完整可复用；
-- 必须是Pair-End测序的数据，如本题所提供；
+- 必须是Pair-End测序数据，如本题所提供；
 - 整个分析流程不局限于目前全基因组数据分析的传统过程[1], 但最后必须要以标准的VCF/gVCF格式输出变异数据；
 - 本题所用的人类参考序列版本统一为：GRCh37（或称hg19），为了确保参赛者们所使用参考序列的一致性，组委会统一提供下载[链接](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/human_g1k_v37.fasta.gz)；
 - 流程监控，可以借助外部工具，或者流程内置相应的监控工具等方式，最基本的要求是，必须能够准确监控流程中每个步骤的运行状态（成功/失败），并返回相应的处理值，以便后续处理。
@@ -73,15 +75,14 @@ CC@FFFFFHHHHHJJJFHIIJJJJJJIHJIIJJJJJJJJIIGIJJIJJJIJJJIJIJJJJJJJJJJIJHHHHFFFDEEEE
 3）SNP和Indel的假阴和假阳率都必须小于或等于1%。
 - 流程监控的有效性，该项只要达到了最基本的要求便合格，没有该项功能，总分将直接扣10分；
 
-
 > 对于该题的变异准确性评估，若参赛者能以充分的理由说明自己所检测出来的那些不一致或者假阳的SNP和Indel确实要比组委会所提供的更准确则可以不依上述的准确性评估标准！
 
 **【本题所用数据说明】**
-本题所提供的原始测序数据（FASTQ格式）为Pair-End测序数据，来自[千人基因组计划](http://www.1000genomes.org/)中的一个样本（NA12878），本次竞赛分析所需的基本数据只有3个，具体如下：
+本题所提供的原始测序数据（FASTQ格式）为Pair-End测序数据，物种为人，本次竞赛分析所需的基本数据为以下3个，具体如下：
 
 ```
-1. NA12878_1.fastq.gz  NA12878的read1，长度101bp，碱基质量值为ASCII-33体系
-2. NA12878_1.fastq.gz  NA12878的read2，长度101bp，碱基质量值为ASCII-33体系
+1. sample_read_1.fastq.gz 测序样本的read1，长度101bp，碱基质量值为ASCII-33体系
+2. sample_read_2.fastq.gz 测序样本的read2，长度101bp，碱基质量值为ASCII-33体系
 3. human_g1k_v37.fasta.gz 人类基因组参考序列
 ```
 
