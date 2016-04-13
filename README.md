@@ -78,7 +78,7 @@ CC@FFFFFHHHHHJJJFHIIJJJJJJIHJIIJJJJJJJJIIGIJJIJJJIJJJIJIJJJJJJJJJJIJHHHHFFFDEEEE
 > 对于该题的变异准确性评估，若参赛者能以充分的理由说明自己所检测出来的那些不一致或者假阳的SNP和Indel确实要比组委会所提供的更准确则可以不依上述的准确性评估标准！
 
 **【本题所用数据说明】**
-本题所提供的原始测序数据（FASTQ格式）为Pair-End测序数据，物种为人，本次竞赛分析所需的基本数据为以下3个，具体如下：
+本题所提供的原始测序数据（FASTQ格式）为Pair-End测序数据，物种为正常人（健康），本次竞赛分析所需的基本数据为以下3个，具体如下：
 
 ```
 1. sample_read_1.fastq.gz 测序样本的read1，长度101bp，碱基质量值为ASCII-33体系
